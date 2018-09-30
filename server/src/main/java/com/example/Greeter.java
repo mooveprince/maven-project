@@ -12,7 +12,9 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
+  /**
+   * Method to do greet  
+   */
   public String greet(String someone) {
     return String.format("Hello Jenkins, %s!", someone);
   }
